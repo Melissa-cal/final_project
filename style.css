@@ -1,0 +1,79 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+}
+.logo_nav{
+    display: flex;
+}
+.nav-container{
+    display: flex;
+    margin-top: 25px;
+}
+#item{
+    padding: 10px;
+}
+#item a{
+    text-decoration: None;
+    color: black;
+}
+.intro{
+    display: flex;
+    background-color: #a2a9b3;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.intro_text{
+    padding: 40px;
+    margin-left: 30px;
+    color: black;
+}
+.profile_photo img{
+    padding: 25px;
+    margin-right: 50px;
+}
+.skillset{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.skill1, .skill2, .skill3{
+    padding: 30px;
+}
+.skill1 div, .skill2 div, .skill3 div {
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    border: 1px solid #c5d0de;
+}
+
+.skill1 h3, .skill2 h3, .skill3 h3{
+    text-align: center;
+}
+.skill1{
+    margin-left: 15px;
+}
+.skill3{
+    margin-right: 15px;
+}
+
+h1{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+/* .designation{
+    /* font-size: 20px; */
+.advice{
+    text-align: center;
+    border-bottom: 1px solid #c5d0de;
+    padding-bottom: 10px;
+}
+.advice h3{
+    margin-bottom: 7px;
+}
+footer{
+    padding: 10px;
+}
